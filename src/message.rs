@@ -440,7 +440,6 @@ mod tests {
             }),
             id: 0,
         };
-        eprintln!("{}", get_dummy_spend_tx().hex());
         roundtrip!(msg);
         assert_str_ser!(
             msg,
